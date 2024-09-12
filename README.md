@@ -1,10 +1,4 @@
 # Twitter-Search-Application
 
 
-A Search Application which retrieves the tweets, hashtags and also the user who tweeted.Calculated the retrieval time taken for tweets before and after using the Cache.
-
-Users Data: MySQL is used for storing the data of the users
-
-Tweets Data: MongoDB is used for storing the data of the tweets
-
-Caching: Redis is used for Caching
+Built a search application that retrieves tweets, associated hashtags, and the users who posted them. User data is managed in MySQL, while tweet data is stored in MongoDB. Redis is utilized for caching to optimize performance, with retrieval times evaluated both before and after caching to measure improvements
